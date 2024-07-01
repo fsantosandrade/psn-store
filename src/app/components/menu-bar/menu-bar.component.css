@@ -1,9 +1,13 @@
 .menu-container {
-    background-color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(255, 255, 255);
     height: 50px;
+    width: 100vw;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 
 .menu-container > .home {
@@ -12,10 +16,12 @@
 
 .menu-container > .home > a > img {
     width: 100%;
+    margin-left: 15px;
 }
 
 .menu-container > .menu-container__options {
     display: flex;
+    margin: auto;
 }
 
 .menu-container > .menu-container__options > a {
@@ -24,6 +30,6 @@
     margin: 0 10px;
 }
 
-.menu-container > .space {
-    width: 180px;
+.menu-container > .menu-container__options > a:hover {
+    font-weight: 500;
 }
