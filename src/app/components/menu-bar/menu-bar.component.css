@@ -1,0 +1,29 @@
+.menu-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.menu-container > .home {
+    width: 180px;
+}
+
+.menu-container > .home > a > img {
+    width: 100%;
+}
+
+.menu-container > .menu-container__options {
+    display: flex;
+}
+
+.menu-container > .menu-container__options > a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu-container > .space {
+    width: 180px;
+}
